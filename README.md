@@ -1,13 +1,30 @@
 ### Hello, World!
 
-I operate in a dual loop of `collect()` and `appreciate()` where the parameters are:
-- **Primary Hobby:** `acquire(miniature_historical_canvases)`
-- **Soundtrack:** A perpetual state of `decode(symphony.number9)` and `execute(levantine_nightsong.dll)`
+```cpp
+#include <iostream>
+#include <string>
 
-My current build is optimized for finding signal in the noise, both in vintage perforations and in the silent spaces between notes.
+using namespace std;
 
-**Status:** `Always listening. Always seeking.`
+int main() {
+    struct Person {
+        string name;    
+        string birthPlace; 
+        string hobby;     
+        string favorites;  
+    };
 
-<!---
-The collection is always growing. The fifth movement is never finished.
---->
+    Person myInfo;
+    myInfo.name = "3582-490";
+    myInfo.birthPlace = "Moscow";
+    myInfo.hobby = "Collecting stamps";
+    myInfo.favorites = "Fairuz and Beethoven";
+
+    cout << "Name: " << myInfo.name << endl;
+    cout << "Birth Place: " << myInfo.birthPlace << endl;
+    cout << "Hobby: " << myInfo.hobby << endl;
+    cout << "Favorites: " << myInfo.favorites << endl;
+
+    return 0;
+}
+```
